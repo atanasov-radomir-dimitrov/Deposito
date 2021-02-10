@@ -73,8 +73,8 @@ public class CCuenta {
      * 
      * @param cantidad double La cantidad que se quiere retirar
      * @throws Exception se lanza una u otra excepción en funcion del valor del
-     * parametro cantidad (si es <= 0) o el estado de la cuenta (estado() < cantidad,
-     * es decir hay menos dinero del que se quiere retirar)
+     * parametro cantidad (si es menor o igual 0) o el estado de la cuenta 
+     * (estado() menor que cantidad, es decir hay menos dinero del que se quiere retirar)
      */
     public void retirar(double cantidad) throws Exception
     {
@@ -115,7 +115,7 @@ public class CCuenta {
 	/**
 	 * Método para cambiar el valor del atributo cuenta
 	 * 
-	 * @param nombre nuevo valor del atributo cuenta.
+	 * @param cuenta nombre del nuevo valor del atributo cuenta.
 	 */
 	public void setCuenta(String cuenta) {
 		this.cuenta = cuenta;
@@ -133,7 +133,7 @@ public class CCuenta {
 	/**
 	 * Método para cambiar el valor del atributo saldo
 	 * 
-	 * @param nombre nuevo valor del atributo saldo.
+	 * @param saldo nuevo valor del atributo saldo.
 	 */
 	public void setSaldo(double saldo) {
 		this.saldo = saldo;
@@ -151,7 +151,7 @@ public class CCuenta {
 	/**
 	 * Método para cambiar el valor del atributo tipoInteres
 	 * 
-	 * @param nombre nuevo valor del atributo tipoInteres.
+	 * @param tipoInteres nuevo valor del atributo tipoInteres.
 	 */
 	public void setTipoInteres(double tipoInteres) {
 		this.tipoInteres = tipoInteres;
