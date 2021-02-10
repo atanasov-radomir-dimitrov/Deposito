@@ -6,6 +6,7 @@ public class HolaMundo {
 		
 		System.out.println("Hola Mundo!!!");
 		System.out.println("1 cambio - Consola");
+		System.out.println("1 cambio - Eclipse");
 
 	}
 
