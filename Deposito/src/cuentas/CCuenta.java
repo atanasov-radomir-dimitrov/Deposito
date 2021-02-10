@@ -1,5 +1,11 @@
 package cuentas;
 
+/**
+ * Agrego comentario para comprobar cosas
+ * 
+ * @author radomir
+ *
+ */
 public class CCuenta {
 
 
